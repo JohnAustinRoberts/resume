@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John A. Roberts - Resume</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Google Font: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6; /* Light gray background */
+        }
+        .section-heading {
+            border-bottom: 2px solid #e5e7eb; /* Light gray border for sections */
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+            color: #1f2937; /* Darker text for headings */
+        }
+        .experience-item, .education-item {
+            margin-bottom: 1.5rem;
+        }
+        .bullet-point::before {
+            content: "\2022"; /* Unicode for a bullet point */
+            color: #3b82f6; /* Blue color for bullets */
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+    </style>
+</head>
+<body class="p-4 sm:p-6 md:p-8 lg:p-10 bg-gray-100 min-h-screen flex items-center justify-center">
+    <div class="max-w-4xl w-full bg-white shadow-lg rounded-xl p-6 sm:p-8 md:p-10 lg:p-12">
+
+        <!-- Header Section -->
+        <header class="text-center mb-8 pb-4 border-b border-gray-200">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 mb-2">John A. Roberts</h1>
+            <p class="text-lg sm:text-xl text-gray-600">IT & SWE Coach</p>
+            <div class="flex flex-col sm:flex-row justify-center items-center mt-4 space-y-2 sm:space-y-0 sm:space-x-6 text-gray-700">
+                <span class="flex items-center">
+                    <i class="fas fa-phone mr-2 text-blue-500"></i> (248) 892-9933
+                </span>
+                <a href="mailto:austinroberts0520@gmail.com" class="flex items-center text-blue-600 hover:underline">
+                    <i class="fas fa-envelope mr-2 text-blue-500"></i> austinroberts0520@gmail.com
+                </a>
+            </div>
+        </header>
+
+        <!-- Skills Section -->
+        <section class="mb-8">
+            <h2 class="text-2xl sm:text-3xl font-bold section-heading">Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-gray-800">
+                <div>
+                    <h3 class="font-semibold text-xl mb-2 text-gray-700"><i class="fas fa-tools mr-2 text-gray-500"></i>Everyday Utilities</h3>
+                    <ul class="list-none pl-0 space-y-1">
+                        <li class="bullet-point ml-4">Slack</li>
+                        <li class="bullet-point ml-4">G-Suite Enterprise</li>
+                        <li class="bullet-point ml-4">Microsoft 365</li>
+                        <li class="bullet-point ml-4">Codio</li>
+                        <li class="bullet-point ml-4">Coursera</li>
+                        <li class="bullet-point ml-4">Multiverse Platform</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-xl mb-2 text-gray-700"><i class="fas fa-code mr-2 text-gray-500"></i>Languages & Libraries</h3>
+                    <ul class="list-none pl-0 space-y-1">
+                        <li class="bullet-point ml-4">Javascript/JQuery</li>
+                        <li class="bullet-point ml-4">REACT</li>
+                        <li class="bullet-point ml-4">NodeJS</li>
+                        <li class="bullet-point ml-4">HTML/CSS</li>
+                        <li class="bullet-point ml-4">MySQL/Sequelize</li>
+                        <li class="bullet-point ml-4">Python</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-xl mb-2 text-gray-700"><i class="fas fa-users mr-2 text-gray-500"></i>Non-Technical Skills</h3>
+                    <ul class="list-none pl-0 space-y-1">
+                        <li class="bullet-point ml-4">Providing Feedback</li>
+                        <li class="bullet-point ml-4">Mentoring</li>
+                        <li class="bullet-point ml-4">Time Management</li>
+                        <li class="bullet-point ml-4">Motivation</li>
+                        <li class="bullet-point ml-4">Career Planning</li>
+                        <li class="bullet-point ml-4">Goal Crafting</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="mb-8">
+            <h2 class="text-2xl sm:text-3xl font-bold section-heading">Experience</h2>
+
+            <!-- Multiverse -->
+            <div class="experience-item">
+                <div class="flex justify-between items-baseline mb-1">
+                    <h3 class="text-xl font-semibold text-gray-900">Multiverse</h3>
+                    <span class="text-gray-600 text-sm sm:text-base">New York, NY</span>
+                </div>
+                <div class="flex justify-between items-baseline mb-2">
+                    <p class="text-blue-600 italic">IT & SWE Coach</p>
+                    <span class="text-gray-600 text-sm sm:text-base">August 2021 - Present</span>
+                </div>
+                <ul class="list-none pl-0 space-y-1 text-gray-800">
+                    <li class="bullet-point ml-4">Led both IT and Software Engineering Cohorts of Apprentices working at large client companies.</li>
+                    <li class="bullet-point ml-4">Teach IT topics to prepare IT apprentices for work in industry, including the Coursera IT Support Professional certificate, preparing apprentices for taking the CompTIA Network+ exam and the CompTIA Linux+ Exam.</li>
+                    <li class="bullet-point ml-4">Teach SWE topics to prepare SWE apprentices for work during a 12-week bootcamp that includes Full Stack web development using HTML, CSS, and Javascript, including Github Deployment and leveraging Github Copilot.</li>
+                    <li class="bullet-point ml-4">Teach SWE topics to SWE apprentices throughout their apprenticeships with modules focused on Front-End Development, Back-End Development, and Deployment.</li>
+                    <li class="bullet-point ml-4">Teach Durable Skills content to all apprentices; covering topics like Time Management, Team Communication, Maintaining a Growth Mindset.</li>
+                    <li class="bullet-point ml-4">Provides 1-on-1 support to apprentices, helping to identify professional goals and create individualized plans for apprentices to meet those goals.</li>
+                    <li class="bullet-point ml-4">Grades and provided feedback on apprentice-submitted assignments and projects.</li>
+                    <li class="bullet-point ml-4">Works directly with apprentices to provide support during in-class activities and office hours.</li>
+                </ul>
+            </div>
+
+            <!-- Suntuity Solar -->
+            <div class="experience-item">
+                <div class="flex justify-between items-baseline mb-1">
+                    <h3 class="text-xl font-semibold text-gray-900">Suntuity Solar</h3>
+                    <span class="text-gray-600 text-sm sm:text-base">Holmdel, NJ</span>
+                </div>
+                <div class="flex justify-between items-baseline mb-2">
+                    <p class="text-blue-600 italic">IT Specialist/IT Manager</p>
+                    <span class="text-gray-600 text-sm sm:text-base">May 2018 - August 2021</span>
+                </div>
+                <ul class="list-none pl-0 space-y-1 text-gray-800">
+                    <li class="bullet-point ml-4">Develops in-house programs to streamline processes based on company needs to help employees work more efficiently.</li>
+                    <li class="bullet-point ml-4">Implements and maintains inventory management software.</li>
+                    <li class="bullet-point ml-4">Prioritizes IT tickets to keep in line with fluid company initiatives.</li>
+                    <li class="bullet-point ml-4">Manages network for both physical cabling and virtual configuration.</li>
+                    <li class="bullet-point ml-4">Facilitates new employee onboarding and offboarding and trains on the use of G-Suite (Google Docs, Sheets, Hangouts, Slides, and Voice).</li>
+                    <li class="bullet-point ml-4">Creates training videos for commonly asked questions.</li>
+                    <li class="bullet-point ml-4">Provides judgement-free helpdesk support, remote and in-person, to clients of all technical ability levels.</li>
+                    <li class="bullet-point ml-4">Conducts and facilitates online meetings with screensharing via Zoom, Go2Meeting, and Google Hangouts.</li>
+                    <li class="bullet-point ml-4">Creates and maintains documentation on all procedures and processes conducted by IT department.</li>
+                    <li class="bullet-point ml-4">Deduplicates and imports client information into the customer relations management system.</li>
+                    <li class="bullet-point ml-4">Uploads images to S3 buckets on AWS for easy access to images across the company.</li>
+                    <li class="bullet-point ml-4">Security camera system maintenance and review.</li>
+                    <li class="bullet-point ml-4">Created program to adjust locations of Google Maps pins based on latitude and longitude in lieu of mailing address in the customer relations management system for more reliable deployment of installation teams.</li>
+                </ul>
+            </div>
+
+            <!-- Rutgers University/Trilogy Education Services -->
+            <div class="experience-item">
+                <div class="flex justify-between items-baseline mb-1">
+                    <h3 class="text-xl font-semibold text-gray-900">Rutgers University/Trilogy Education Services</h3>
+                    <span class="text-gray-600 text-sm sm:text-base">New Brunswick, NJ</span>
+                </div>
+                <div class="flex justify-between items-baseline mb-2">
+                    <p class="text-blue-600 italic">Teaching Assistant</p>
+                    <span class="text-gray-600 text-sm sm:text-base">November 2017 - January 2019</span>
+                </div>
+                <ul class="list-none pl-0 space-y-1 text-gray-800">
+                    <li class="bullet-point ml-4">Assisted multiple instructors as a Teaching Assistant in full-time and part-time cohorts for the Full Stack Web Development, and the Data Science and Visualization programs.</li>
+                    <li class="bullet-point ml-4">Lectured classes on Javascript and Github Deployment.</li>
+                    <li class="bullet-point ml-4">Graded student-submitted homework and projects.</li>
+                    <li class="bullet-point ml-4">Worked directly with students to provide support during in-class activities and office hours.</li>
+                    <li class="bullet-point ml-4">Held online and in-person tutoring sessions.</li>
+                    <li class="bullet-point ml-4">Provided additional guidance to students after grading assignments to ensure they were able to maintain the aggressive pace of the bootcamp.</li>
+                    <li class="bullet-point ml-4">Organized extracurricular study groups.</li>
+                </ul>
+            </div>
+
+            <!-- Osteria Morini -->
+            <div class="experience-item">
+                <div class="flex justify-between items-baseline mb-1">
+                    <h3 class="text-xl font-semibold text-gray-900">Osteria Morini</h3>
+                    <span class="text-gray-600 text-sm sm:text-base">Bernardsville, NJ</span>
+                </div>
+                <div class="flex justify-between items-baseline mb-2">
+                    <p class="text-blue-600 italic">Server Captain/Assistant Manager</p>
+                    <span class="text-gray-600 text-sm sm:text-base">May 2015 - November 2017</span>
+                </div>
+                <ul class="list-none pl-0 space-y-1 text-gray-800">
+                    <li class="bullet-point ml-4">Worked to establish personal connections with restaurant guests to ensure a pleasant visit and return business.</li>
+                    <li class="bullet-point ml-4">Monitored and evaluated team members’ performance.</li>
+                    <li class="bullet-point ml-4">Provided supervision and professional development to employees.</li>
+                    <li class="bullet-point ml-4">Organized and conducted training of new employees.</li>
+                    <li class="bullet-point ml-4">Filled in where needed to assure smooth dinner services.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section>
+            <h2 class="text-2xl sm:text-3xl font-bold section-heading">Education</h2>
+
+            <!-- Rutgers University - Bootcamp -->
+            <div class="education-item">
+                <div class="flex justify-between items-baseline mb-1">
+                    <h3 class="text-xl font-semibold text-gray-900">Rutgers University</h3>
+                    <span class="text-gray-600 text-sm sm:text-base">New Brunswick, NJ</span>
+                </div>
+                <div class="flex justify-between items-baseline mb-2">
+                    <p class="text-blue-600 italic">Full Stack Web Development Coding Bootcamp</p>
+                    <span class="text-gray-600 text-sm sm:text-base">March 2017 - September 2017</span>
+                </div>
+            </div>
+
+            <!-- CompTIA A+ -->
+            <div class="education-item">
+                <div class="flex justify-between items-baseline mb-1">
+                    <h3 class="text-xl font-semibold text-gray-900">CompTIA A+ Certificate</h3>
+                    <span class="text-gray-600 text-sm sm:text-base">February 2019</span>
+                </div>
+            </div>
+        </section>
+
+    </div>
+</body>
+</html>
+
+
